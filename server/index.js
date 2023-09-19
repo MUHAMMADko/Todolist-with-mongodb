@@ -13,6 +13,6 @@ app.use(bodyParser.urlencoded({extended : true}));
 
 app.use('/',Routes);
 
-const PORT = 8000;
+const PORT = 27017;
 Connection();
 app.listen(PORT,()=> console.log(`server is running successfully on port ${PORT}`));
